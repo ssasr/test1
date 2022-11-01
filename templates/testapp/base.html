@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  {% block head %}
+  {% endblock %}
+  </head>
+<body>
+  <div class="">
+    <div class="">
+      <h1>Ayu Health Hospitals</h1>
+
+  <span>
+    <h3>contact us:</h3>
+    <h2>7659966761</h2>
+  </span>
+  <span><button type="button" name="button">Book Appointment</button></span>
+  <br><h5>india's most trusted network of hostpitals</h5>
+  </div>
+  </div>
+  <div>
+    <table width=100%>
+      <tr>
+        <td><a href="/home">Home</a></td><td><a href="/python">python</a></td><td><a href="/java">java</a></td>
+        <td><a href="/signup">Signup</a></td><td><a href="/accounts/login">login</a></td><td><a href="/accounts/logout">logout</a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="block" width=90% height=500px align=center>
+
+
+  {% block body %}
+  {% endblock %}
+
+
+  </div>
+  <div class="">
+  <h2>connect with us:  <span>insta</span> <span>facebook</span><span>twitter</span><span>youtube</span></h2>
+  <br>
+  <div class="" id="about_footer">
+
+   <span><a href="#">how it works</a></span><span><a href="#">about us</a></span>
+       <span><a href="#">terms of use</a></span><span><a href="#">private policy</a></span>
+  </div>
+       <br>
+  <h2>Available in</h2><br>
+  <div class="span">
+  <span>thirupathi</span><span>hyderabad</span><span>kurnool</span><span>vishakapatanam</span><span>mahabubnagar</span>
+  </div>
+</body>
+</html>
